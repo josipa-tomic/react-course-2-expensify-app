@@ -11,6 +11,7 @@ import {setTextFilter} from './actions/filters';
 import getVisibileExpences from './selectors/expenses';
 
 const store=configureStore();
+console.log('testing');
 const jsx=(
     <Provider store={store}>
     <AppRouter />
